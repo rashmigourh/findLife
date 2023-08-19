@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#navbar hr {
+  display: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  color: white;
+}
+#navbar .head {
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#navbar .menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 5%;
+  cursor: pointer;
+  width: 40%;
+}
+
+#navbar .menu a {
+  font-size: 1.2rem;
+  margin-top: 10%;
+  position: relative;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  font-weight: bold;
+}
+#navbar .menu a:hover{
+  transform: translate(-2px);
+}
+
+/*hamburger */
+.open-menu,
+.close-menu {
+  position: relative;
+  color: var(--color1);
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+.open-menu {
+  top: 10%;
+  right: -20px;
+}
+.close-menu {
+  top: 10px;
+  right: 20px;
+}
+#check {
+  display: none;
+}
+
+#home {
+  text-align: center;
+  padding-top: 50px;
+  z-index: -1;
+  margin-top: 70px;
+  color: white;
+}
+
+/* name form */
+.forms {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(14, 28, 134, 0.5)50%, rgba(14, 28, 134, 0.5)50%),
+    url("../web_img/bgImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.container {
+  height: 60vh;
+  width: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  color: white;
+ border-radius: 10px;
+}
+.container .heading1{
+  text-align: center;
+  padding: 10px;
+}
+.container .p1{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.container form label{
+  font-size: 1.8rem;
+  margin: 5%;
+}
+
+.container form input{
+  width: 90%;
+  height: 5vh;
+  margin: 5%;
+  padding: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  outline: none;
+}
+.container form input::placeholder{
+  color: white;
+}
+
+.container form .btn1 {
+  margin-top: 5%;
+  margin-left: 80%;
+  cursor: pointer;
+  width: 20%;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+.container form .field .btn1:hover{
+  background-color: rgb(42, 42, 228);
+  padding-left: 10px;
+}
+.container form button .fa-arrow-right{
+  margin-left: 6%;
+  font-size: 1.3rem;
+}
+.container form button .fa-arrow-left{
+  margin-right: 5%;
+  font-size: 1.3rem;
+}
+
+/*age other forms */
+.container .head2{
+margin-left: 5%;
+}
+.container #gauge {
+ margin-top: 4%;
+margin-left: 5%;
+width: 90%;
+margin-bottom: 5%;
+}
+.container form p{
+  font-size: 1.2rem;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.container form  .btn{
+  width: 50%;
+  margin-left: 60%;
+  display: flex;
+  margin-top: 3%;
+}
+.container form  .btn button {
+  width: 40%;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.container form .btn button:hover{
+  background-color: rgb(42, 42, 228);
+}
+
+.container form select{
+ width: 90%;
+  height: 6vh;
+  margin: 5%;
+  padding: 5px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  outline: none; 
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+select option {
+   background: transparent;
+   color: black;
+}

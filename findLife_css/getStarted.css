@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .main {
+    width: 100%;
+    height: 60vh;
+    background: url("../web_img/bgImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  #navbar hr {
+    display: none;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+  }
+  #navbar .head {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #navbar .menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.6rem;
+    margin-right: 5%;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  #navbar .menu a {
+    font-size: 1.2rem;
+    margin-top: 10%;
+    position: relative;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-weight: bold;
+  }
+  #navbar .menu a:hover{
+    transform: translate(-2px);
+  }
+  /*hamburger */
+  .open-menu,
+  .close-menu {
+    position: relative;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+  }
+  .open-menu {
+    top: 10%;
+    right: -20px;
+  }
+  .close-menu {
+    top: 10px;
+    right: 20px;
+  }
+  #check {
+    display: none;
+  }
+  #heading {
+      text-align: center;
+      padding-top: 50px;
+      font-size: 2rem;
+      z-index: -1;
+      margin-top: 5%;
+      color: white;
+  }
+  #heading .content p {
+    text-align: center;
+    position: relative;
+  }
+  .head2 {
+    font-style: normal;
+    font-weight: bold;
+    word-spacing: 3px;
+    font-size: 1.5rem;
+    color: rgb(8, 66, 95);
+    margin: 5% 13%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  /* cards */
+  .row_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card1 {
+    height: 80vh;
+  }
+  .card2 {
+    margin: 5%;
+    height: 80vh;
+
+  }
+  .row_2 {
+      margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .imgClass {
+    /* to overlape image over text */
+    z-index: 10;
+    margin-right: -30px;
+  }
+
+  .imgClass img {
+    height: 500px;
+    width: 500px;
+  }
+  .img_2 {
+    margin-left: -40px;
+  }
+  .img_2 img {
+    height: 500px;
+    width: 500px;
+    border: 3px solid #ffffff;
+  }
+  
+  .content_1 {
+    height: 80vh;
+    width: 40%;
+    background: rgb(35, 150, 208);
+    padding: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_1 h2 {
+    padding-top: 30px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: white;
+    padding-left: 50px;
+  }
+  .content_1 p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+
+  .content_2 {
+    height: 80vh;
+    width: 40%;
+    background: rgb(35, 150, 208);
+    padding: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content_2 h2 {
+    padding-top: 30px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: white;
+    padding-left: 30px;
+  }
+  
+  .content_2 p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  
+  .content_1 .btn-2 button{
+    background-color: transparent;
+   border: 3px solid white;
+   padding: 5%;
+   width: 70%;
+   text-align: center;
+   margin-top: 10%;
+   margin-left: 15%;
+   cursor: pointer;
+   color: white;
+   font-weight: bold;
+   font-size: 1.1rem;
+    }
+    .content_1 .btn-2  a{
+      text-decoration: none;
+    }
+  .btn-2 button:hover {
+    background-color: rgb(10, 138, 202);
+    transform: translate(-2px);
+  }
+  
+  .content_2 .btn-3 button {
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 5%;
+    width: 70%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    color: white;
+   font-weight: bold;
+   font-size: 1.1rem;
+  }
+  .content_2 .btn-3  a{
+    text-decoration: none;
+  }
+  .btn-3 button:hover {
+    background-color: rgb(10, 138, 202);
+    transform: translate(-2px);
+  }
+
+  /*Footer*/
+.footer {
+  width: 100%;
+  height: 100vh;
+  background: url("../web_img/bgImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  font-family: cursive;
+  margin-top: 10%;
+}
+.container-footer{
+  padding-top: 3%;
+}
+.ta-c {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 33.33%;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.footer-col h4 {
+  color: white;
+  position: relative;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  display: block;
+  font-size: 1.2rem;
+  color:white;
+  word-spacing: 5px;
+}
+
+.footer-col ul li a:hover {
+  color: white;
+  padding-left: 10px;
+}
+.socialLinks {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.socialLinks h4{
+  margin: 2%;
+}
+
+.socialLinks .social-links a {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50%;
+  color: white;
+  margin-left: 3%;
+  transition: all 0.5s ease;
+}
+
+.socialLinks .social-links a:hover {
+  color: rgb(8, 66, 95);
+  background-color: white;
+}
+
+.hs {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+  
