@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+     <!-- Links -->
+     <link rel="apple-touch-icon" sizes="180x180" href="heartIcon/apple-touch-icon.png" />
+     <link rel="icon" type="image/png" sizes="32x32" href="heartIcon/favicon-32x32.png" />
+     <link rel="icon" type="image/png" sizes="16x16" href="heartIcon/favicon-16x16.png" />
+     <link rel="manifest" href="heartIcon/site.webmanifest" />
+     <link rel="mask-icon" href="heartIcon/safari-pinned-tab.svg" color="#5bbad5" />
+     <meta name="msapplication-TileColor" content="#da532c" />
+     <meta name="theme-color" content="#ffffff" />
+     
+    <link rel="stylesheet" type="text/css" href="findLife_css/forms.css">
+    <link rel="stylesheet" href="fonticon/css/all.css">
+    <link rel="stylesheet" href="responsive_css/formPhone.css">
+</head>
+<body>
+    <div class="forms">
+        <div class="main">
+        <nav id="navbar">
+          <div class="head">
+            <p>Find Life</p>
+          </div>
+          <input type="checkbox" id="check" />
+          <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+          <span class="menu">
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            <a href="index.html">Home</a>
+            <hr />
+            <a href="about us.html">About Us</a>
+            <hr />
+            <a href="contact.html">Contact Us</a>
+            <hr />
+            <a href="analysis.html">Analysis</a>
+            <hr />
+          </span>
+        </nav>
+    </div>
+
+       <div class="container">
+        <h2 class="head2">Find Life</h2>
+        <progress id="gauge" value="4" min="0" max="10"></progress><br>
+
+        <form action="#">
+            <div class="field">
+            <label for="residance">What is your Residence Type?</label><br>
+            <p>We’ll help you to predict the risk based on your responses and activities.  </p>
+            <select name="residence" id="residance" required>
+            <option value=""hidden>Please select your residence type</option>
+                <option value="rural" >Rural </option>
+                <option value="urban">Urban</option>
+            </select>
+        </div>
+
+        <div class="btn">
+          <button type="submit" formaction="maritalStatus.html"><i class="fa-solid fa-arrow-left" ></i>Prev</button>
+          <button type="submit" formaction="profession.html">Next<i class="fa-solid fa-arrow-right"  id="right"></i></button>
+        </div>
+        </form>
+       </div>
+        </div>
+</body>
+</html>
