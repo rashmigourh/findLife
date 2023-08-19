@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Analysis</title>
+	 <!-- Links -->
+	 <link rel="apple-touch-icon" sizes="180x180" href="heartIcon/apple-touch-icon.png" />
+	 <link rel="icon" type="image/png" sizes="32x32" href="heartIcon/favicon-32x32.png" />
+	 <link rel="icon" type="image/png" sizes="16x16" href="heartIcon/favicon-16x16.png" />
+	 <link rel="manifest" href="heartIcon/site.webmanifest" />
+	 <link rel="mask-icon" href="heartIcon/safari-pinned-tab.svg" color="#5bbad5" />
+	 <meta name="msapplication-TileColor" content="#da532c" />
+	 <meta name="theme-color" content="#ffffff" />
+	 
+	<link rel="stylesheet" href="findLife_css/common.css">
+	<link rel="stylesheet" href="responsive_css/commonPhone.css">
+	<link rel="stylesheet" type="text/css" href="./fonticon/css/all.css">
+</head>
+<body>
+<!-- Navbar-->
+<div class="main">
+	<nav id="navbar">
+	  <div class="head">
+		<p>Find Life</p>
+	  </div>
+	  <input type="checkbox" id="check" />
+	  <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+	  <span class="menu">
+		<div id="marker"></div>
+		<label for="check" class="close-menu"
+		  ><i class="fas fa-times"></i
+		></label>
+		<a href="index.html">Home</a>
+		<hr />
+		<a href="about us.html">About Us</a>
+		<hr />
+		<a href="contact.html">Contact Us</a>
+		<hr />
+          <a href="analysis.html">Analysis</a>
+		<hr />
+		<a href="dashboard.html">Dashboard</a>
+	  </span>
+	</nav>
+	<h1 class="heading">Analysis of our project</h1>
+  </div>
+
+	<!--analysis page -->
+	<body>
+	<div class="analysis">
+<h2 class="sub-h">About our project</h2>
+<div class="content">
+		<p >
+			Our Project Stroke is based on heart stroke prediction since
+			 according to the World Health Organization (WHO) stroke is the 2nd 
+			 leading cause of death globally, responsible for approximately 11% 
+			 of total deaths. This project is based on the concept to predict 
+			 whether a patient is likely to get stroke based on the input parameters
+			  like gender, age, various diseases, and smoking status. 
+			  This website will give you a detailed explanation regarding heart stroke, 
+			  what all symptoms you will get, how it is caused and the prevention steps 
+			  that you can take to stay healthy or if it is too serious then what all treatments 
+			  are recommended for it. As we all know to live a healthy life you should know your
+			   risk and what all healthy lifestyle you can follow to stay fit. Our website and project
+			    can help you to build a powerful prevention plan with your health care team 
+				(doctors, nurses, pharmacists, registered dietitians, and other professionals). 
+		</p></div>
+
+<h2 class="sub-h">Analysis of our dataset</h2>
+		<div class="content">
+            <p>The data contains 5110 observations with 12 attributes. 
+			This dataset is used to predict whether a patient is likely 
+			to get stroke based on the input parameters like gender, age, 
+			various diseases, and smoking status. Each row in the data provides 
+			relavant information about the patient.</p><br>
+            <h4 class="attr">Attribute Information</h4>
+            <div>
+			<ol class="factors">
+              <li>id: unique identifier</li>
+              <li>gender: "Male", "Female" or "Other"</li>
+              <li>age: age of the patient</li>
+              <li>hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension</li>
+              <li>heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease</li>
+              <li>ever_married: "No" or "Yes"</li>
+              <li>work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"</li>
+              <li>Residence_type: "Rural" or "Urban"</li>
+              <li>avg_glucose_level: average glucose level in blood</li>
+              <li> bmi: body mass index</li>
+              <li> smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*</li>
+              <li> stroke: 1 if the patient had a stroke or 0 if not</li>
+            *Note: "Unknown" in smoking_status means that the information is unavailable for this patient</li>
+		</ol>
+	</div>
+           </div>	
+
+<h2 class="sub-h">Platform Used</h2>
+		<div class="content">
+			<p>We have analysised and predicted our dataset on anaconda software 
+			which is an open-source distribution for python and R. It is used for 
+			data science, machine learning, deep learning, etc. With the availability 
+			of more than 300 libraries for data science, it becomes fairly optimal for
+			 any programmer to work on anaconda for data science.The Anaconda distribution 
+			 comes with packages that can be used on Windows, Linux, and MacOS. The individual
+			  edition includes popular package names like numpy , pandas , scipy , sklearn , 
+			  tensorflow , pytorch , matplotlib and more.</p>
+			<br>
+			<p>In anaconda we have basically used Jupyter notebook application for our back end to
+				 predict the chances of stroke for a person. The Jupyter Notebook application allows
+				 you to create and edit documents that display the input and output of a Python or
+				 R language script. Once saved, you can share these files with others.</p>
+			<br>
+			
+			<div class="juypter text-center" >
+			<img  src="web_img/juypter.jpg" alt="juypter" >
+		</div>
+	</div>
+
+<h2 class="sub-h">Algorithm Implemented</h2>
+		<div class="content">
+			<p>we have used many algorithms for our prediction like SVM, Linear reggression, 
+				Naive baye's, Decision tree, Random forest, KNN...etc to predict and analysis our data.
+				 By far there are 2 algorithms which provides the best accuracy for our dataset, they 
+				 are as folllows:</p>
+		<div><br>
+			<ul class="ul">
+			<li>Neccesary libraries Imported:- numpy, pandas, matplotlib.pyplot</li>
+			<li>Dependent attribute: stroke</li>
+			<li>Independent attribute: gender, age, hypertension, heart_disease, ever_married, work_type, Residence_type, avg_glucose_level, bmi, smoking_status</li>
+			<li>Test size: 0.1</li>
+			</ul>
+		</div>
+
+		<div>
+		   <ol class="algo">
+			<li>Desicion Tree</li>
+			<br>
+			<p>Decision Tree is a Supervised learning technique that can be used for both classification and 
+				Regression problems, but mostly it is preferred for solving Classification problems. 
+				It is a tree-structured classifier, where internal nodes represent the features of a dataset,
+			    branches represent the decision rules and each leaf node represents the outcome.In a decision tree, 
+				for predicting the class of the given dataset, the algorithm starts from the root node of the tree. 
+				This algorithm compares the values of root attribute with the record (real dataset) attribute and, 
+				based on the comparison, follows the branch and jumps to the next node.For the next node, the algorithm 
+				again compares the attribute value with the other sub-nodes and move further. It continues the process 
+				until it reaches the leaf node of the tree. The criteria we have used here is entropy.</p>
+			<br>
+			<pre class="score">Accuracy Score: 0.9706457925636007 (97%)</pre>
+			<br>
+			<br>
+			<li>Random Forest</li>
+			<br>
+			<p>Random Forest is a popular machine learning algorithm that belongs to the supervised 
+			learning technique. It can be used for both Classification and Regression problems in ML.
+			 It is based on the concept of ensemble learning, which is a process of combining multiple 
+			 classifiers to solve a complex problem and to improve the performance of the model.
+			 Random Forest is a classifier that contains a number of decision trees on various subsets 
+			 of the given dataset and takes the average to improve the predictive accuracy of that dataset.
+			 " Instead of relying on one decision tree, the random forest takes the prediction from each tree 
+			 and based on the majority votes of predictions, and it predicts the final output.
+			 Random Forest works in two-phase first is to create the random forest by combining N decision tree,
+			  and second is to make predictions for each tree created in the first phase. The criteria we have used
+			   here is entropy, random_state is 22, n_estimators=3</p>
+			<br>
+			<pre><b class="score">Accuracy Score:</b> 0.9706457925636007 (97%)</pre>
+		</ol>
+	</div>
+</div>
+
+		
+<h2 class="sub-h">Outcome of our project</h2>
+    <div class="content">
+    	<p>So the total outcome of our analysis and prediction 
+		is to predict whether a patient is likely to get a stroke
+		 based on the input parameters like gender, age, various diseases,
+		 and smoking status. In our result we have clearly explained the role 
+		 of each parameter on the stroke in our website and here through our 
+		 analysis we have explained our result through graphs.</p>
+    	<br>
+    	<br>
+        <b class="attr"> Graph of each parameter with number of strokes</b>
+			<br>
+		<div class="row">
+		<div class="cards1 col-2">
+		<img class="bar" src="web_img/bar.jfif" alt="bar">
+	    </div>
+	
+		<div class="cards1 col-2">
+			<ul class="ul" >
+			<li>x axis represents the number of stroke and y axis represents each parameter</li>
+			<br>
+			<li>Here the blue colour represents the people with stroke and orange colour represents the people without stroke in their respective parameter</li>
+			<br>
+			<li>As we can see in this graph, people who are unmarried are more likely to experience less number of heart strokes as compared to the people who are married many factors can be there to predict this type of result like stress, depression etc</li>
+			<br>
+			<li>People who are living in rural area are more likely to experience less number of heart strokes as compared to the people living in urban areas many factors can be there to predict this type of result like pollution, unhygienicness etc</li>
+			<br>
+			<li>Males are more likely to experience less number of heart strokes as compared to the females many factors can be there to predict this type of result like pregnancy, high blood pressure etc</li>
+			</ul>
+			</div>
+		</div>
+
+            <div class="row mt-10px">
+		<div class="cards1 col-2 text-center">
+			<img class="pie" src="web_img/p.jpeg" alt="pie chart">
+		
+		
+		    <h2><p class=" attr"> pie chart for hypertension</p></h2>
+			<p class="para">This pie chart represent people having heart stroke out of 
+				which 26% of people have hypertension are more likely to 
+				suffer heart stroke than the remaining 73% of people without 
+				hypertension, here other parameters may play the role to predict this type of result.</p>
+		</div>
+
+		<div class="cards1 col-2 text-center">
+			<img class="pie" src="web_img/pie.jpeg" alt="pie chart">
+			<h2><p class=" attr">pie chart for smoking</p></h2>
+			<p class="para">This pie chart represent people having heart stroke with their
+				 smoking activity out of which 28% of people smoke ocassionally, 
+				 35% of people smoke frequently and the remaining 36% of people 
+				 never smoked, here other parameters may paly the role to predict this type of result.</p>
+		</div>
+	</div>
+</div>
+ <h2 class="sub-h">Source for our dataset</h2>
+        <div class="content">
+        	<b class="attr">Dataset source:</b> <a target="_blank" href="https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset">https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset</a>
+       </p> 	
+	</div>
+</div>
+<footer class="footer">
+	<div class="container-footer">
+	<div class="ta-c">	
+	<h1>FindLife <i class="fa-solid fa-heart-circle-plus"></i></h1>
+	<p style="color: #bbbbbb;" >copyright@2022<a href="#" style="color: #bbbbbb;">Heart Stroke Prediction Project</a></p>
+	</div>
+<div class="flex">
+		<div class="footer-col">
+		<h4>Policies</h4>
+		<ul>
+			<li><a href="#">privacy policy </a></li>
+			<li><a href="#">cookie policy</a></li>
+			<li><a href="#">advertising policy</a></li>
+			<li><a href="#">terms of use</a></li>
+		</ul>
+	</div>
+
+	<div class="footer-col">
+		<h4>Who we are</h4>
+		<ul>
+			<li><a href="#">contact us</a></li>
+			<li><a href="#">about our project</a></li>
+			<li><a href="#">dataset for prediction</a></li>
+			<li><a href="#">source</a></li>
+		</ul>
+	</div>
+
+	<div class="footer-col">
+		<h4>Health solutions</h4>
+		<ul>
+			<li><a href="#">know your risk</a></li>
+			<li><a href="#">live tobacco free</a></li>
+			<li><a href="#">eat a healthy diet</a></li>
+			<li><a href="#">take your medicine</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="socialLinks">
+	<h4>Follow us</h4>
+	<div class="social-links">
+	  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+	  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+	  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+	  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+	</div>
+  </div>
+<div class="hs">
+<h4>All health/medical information on this website has been reviewed and approved, appropriate dataset has been used for this reserch and outcome based on scientific research and guidelines.Team stroke does not endorse any of the third party products and services advertised.Any use of this site constitutes your agreement to the Terms and Conditions and Privacy Policy linked above.</h4>	
+</div>
+</div>
+</footer>
+</body>
+	</html>
