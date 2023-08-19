@@ -1,0 +1,583 @@
+@media (max-device-width: 670px) {
+  * {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .main {
+    margin-top: -10px;
+    height: 40vh;
+    margin-bottom: 10%;
+  }
+
+  /* Navbar */
+  #navbar hr {
+    display: block;
+  }
+  #navbar .head {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  #navbar .menu {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 60vh;
+    position: fixed;
+    top: 0%;
+    right: -80%;
+    z-index: 100;
+    transition: all 0.2s ease-in-out;
+    margin-top: 0%;
+    font-size: 1.2rem;
+    margin-right: 0%;
+    background-color: rgb(8, 73, 111);
+  }
+  #navbar .menu a {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #navbar a:hover {
+    background-color: azure;
+  }
+  .open-menu,
+  .close-menu {
+    display: block;
+  }
+  #check:checked ~ .menu {
+    right: 0;
+  }
+  .open-menu {
+    width: 10%;
+    margin-top: 5%;
+    right: 20px;
+    font-size: 2rem;
+  }
+  .close-menu {
+    top: -0%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    right: -5%;
+    overflow-y: hidden;
+    font-size: 1.8rem;
+    color: white;
+  }
+  .heading {
+    padding-top: 30px;
+    font-size: 2.2rem;
+  }
+
+  /* About US */
+  .aboutContent {
+    margin: 10%;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+  }
+
+  .sub-h {
+    margin: 10%;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .content {
+    margin: -1% 10%;
+    word-spacing: 3px;
+  }
+  .content p {
+    font-size: 1rem;
+    /* background-color: rebeccapurple; */
+  }
+
+  /* contact us */
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-3 {
+    width: 80%;
+  }
+  .mt-10px {
+    margin-top: 10px;
+  }
+
+  .contact .cards1 {
+    padding: 1%;
+    font-size: 1.2rem;
+    margin: 5% 10%;
+  }
+  .contact .cards1 p {
+    padding: 5%;
+  }
+  .contact .cards1 img {
+    height: 40%;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .no-b {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.2rem;
+  }
+  .no-b .contentMe {
+    padding-top: 5%;
+    margin: 5%;
+  }
+  .no-b .contentMe p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .no-b .contentMe ul {
+    font-size: 1rem;
+  }
+  .no-b .contentMe .pre {
+    font-size: 1.2rem;
+  }
+  .no-b img {
+    height: 250px;
+    width: 250px;
+    margin-left: 10%;
+    border-radius: 50%;
+  }
+  .no-b .doc {
+    margin: 3%;
+    font-size: 1.2rem;
+  }
+
+  .form {
+    text-align: left;
+    width: 80%;
+    height: 90vh;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+    overflow-y: hidden;
+  }
+
+  .info {
+    padding: 20px;
+    margin-right: 0px;
+    overflow-y: hidden;
+    border-radius: 10px;
+  }
+  .form .info .field {
+    margin-top: -15%;
+  }
+
+  input,
+  #gender {
+    height: 3vh;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 0.6rem;
+  }
+  .form label {
+    font-size: 0.9rem;
+  }
+  #des {
+    height: 10vh;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  .form .info .btn2 {
+    margin-top: -10%;
+    }
+  .btn2 button{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 0.7rem;
+  }
+
+  /* Analysis page*/
+.analysis .content .attr{
+  font-size: 1rem;
+}
+.analysis .content ol.factors{
+  line-height: 130%;
+  font-size: 1rem;
+  list-style-type: decimal;
+}
+.analysis .juypter img{
+  margin-top: 0%;
+  border-radius: 2%;
+   width:70%;
+}
+.analysis .content ul.ul{
+  list-style: disc;
+  font-size: 1rem;
+}
+.analysis .content .algo li{
+  margin-top: 10%;
+ font-size: 1.3rem;
+}
+.analysis .content  .score {
+  font-size: 1.1rem;
+ color: #102242;
+ font-weight: bold;
+}
+.analysis .col-2 {
+  width: 100%;
+}
+
+.analysis .content .cards1 {
+  height: 35vh;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  overflow-y: hidden;
+
+}
+.analysis .content .cards1 .bar {
+  height:150px; 
+  width:270px;
+  margin: 0%;
+  margin-top: 20%;
+  margin-left: -5%;
+}
+.analysis .content .cards1 ul {
+  font-size: 0.5rem;
+  margin: 5%;
+}
+.analysis .cards1 .pie{
+  height:40%; 
+  width:40%;
+}
+.analysis .cards1 .para {
+  margin: 5%;
+  font-size: 0.6rem;
+}
+
+/* footer */
+  .footer {
+    width: 100%;
+    height: 140vh;
+    margin-top: 20%;
+    overflow-y: hidden;
+  }
+  .container-footer {
+    padding-top: 5%;
+  }
+  .ta-c {
+    margin-bottom: 5%;
+    font-size: 0.9rem;
+  }
+  .footer-col h4 {
+    font-size: 1.3rem;
+  }
+  .footer-col ul li a {
+    font-size: 1rem;
+    word-spacing: 0px;
+  }
+  .socialLinks {
+    font-size: 2rem;
+    margin-top: 10%;
+  }
+  .socialLinks .social-links a {
+    height: 50px;
+    width: 50px;
+    overflow-y: hidden;
+  }
+  .hs {
+    margin-top: 70px;
+  }
+}
+
+@media (min-device-width: 670px) and (max-device-width: 1024px) {
+  
+  .main {
+    height: 50vh;
+  }
+  #navbar .head {
+    margin-top: 6%;
+    font-size: 1.1rem;
+  }
+  
+  #navbar .menu {
+    margin-right: 2%;
+    width: 70%;
+  }
+  #navbar .menu a {
+    font-size: 1rem;
+    margin-top: 10%;
+    padding: 0px;
+  }
+
+  /*contact*/
+  .contact .cards1 {
+    padding: 1%;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 5% 2%;
+  }
+  .contact .cards1 p {
+    padding: 5%;
+    font-size: 1rem;
+  }
+  .contact .cards1 img {
+    width: 40%;
+  }
+  .no-b {
+    margin-left: 0%;
+    font-size: 1rem;
+    height: 20vh;
+  }
+  .no-b .contentMe {
+    padding-top: 10%;
+    margin: 10%;
+    margin-top: 20%;
+  }
+  .no-b .contentMe p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .no-b .contentMe ul {
+    font-size: 0.9rem;
+  }
+  .no-b .contentMe .pre {
+    font-size: 1rem;
+  }
+  .no-b img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 40%;
+    margin-left: 5%;
+  }
+  .no-b .doc {
+    margin: 8%;
+    margin-left: 15%;
+  }  
+  .form {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .info {
+    padding: 5%;
+    margin-right: 5px;
+    height: 70vh;
+  }
+  .form .info .ta-c {
+    font-size: 1.2rem;
+    margin-bottom: 15%;
+
+  }
+  .form .info .field {
+    margin-top: -15%;
+  }
+  .form .info label {
+    font-size: 0.7rem;
+  }
+  input,
+  #gender {
+    height: 3vh;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 0.5rem;
+  }
+  #des {
+    height: 8vh;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .btn2 {
+  margin-top: -15%;
+  }
+  .btn2 button{
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+  
+  .login {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+    /* analysis */
+    .analysis .col-2 {
+      width: 50%;
+      /* background-color: cyan; */
+    }
+    
+    .analysis .content .cards1 {
+      height: 70vh;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+    .analysis .content .cards1 .bar {
+      height:450px; 
+      width:430px;
+      margin: 0%;
+      margin-left: -20%;
+    }
+    .analysis .content .cards1 ul {
+      margin: 0%;
+      padding: 10%;
+      font-size: 0.9rem;
+    }
+    .analysis .cards1 .pie{
+      height:40%; 
+      width:50%;
+    }
+    .analysis .cards1 p{
+      margin-top: 10%;
+    }
+    .analysis .cards1 .para {
+      margin: 5%;
+      font-size: 1rem;
+    }
+    
+  .footer {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media (min-device-width: 1025px) and (max-device-width: 1280px){
+  * {
+      overflow-x: hidden;
+    }
+    body {
+      overflow-x: hidden;
+    } 
+    .main {
+      height: 50vh;
+    }
+    #navbar .head {
+      margin-top: 6%;
+      font-size: 1.1rem;
+    }
+    
+    #navbar .menu {
+      margin-right: 2%;
+      width: 70%;
+    }
+    #navbar .menu a {
+      font-size: 1rem;
+      margin-top: 10%;
+      padding: 0px;
+    }
+  
+    /*contact*/
+    .contact .cards1 {
+      padding: 1%;
+      font-size: 1.6rem;
+      text-align: center;
+      margin: 5% 2%;
+    }
+    .contact .cards1 p {
+      padding: 5%;
+      font-size: 1rem;
+    }
+    .contact .cards1 img {
+      width: 40%;
+    }
+    .no-b img {
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      margin-top: 10%;
+      margin-left: -10%;
+    }
+     
+    .form {
+      font-size: 20px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    
+    .info {
+      padding: 5%;
+      margin-right: 5px;
+      height: 70vh;
+    }
+    .form .info .ta-c {
+      font-size: 1.2rem;
+      margin-bottom: 15%;
+  
+    }
+    .form .info .field {
+      margin-top: -15%;
+    }
+    .form .info label {
+      font-size: 0.7rem;
+    }
+    input,
+    #gender {
+      height: 3vh;
+      width: 100%;
+      margin-top: 0px;
+      font-size: 0.5rem;
+    }
+    #des {
+      height: 8vh;
+      width: 100%;
+      margin-top: 5px;
+    }
+    .btn2 {
+    margin-top: -15%;
+    }
+    .btn2 button{
+      width: 80%;
+      margin-left: 10%;
+      padding: 5px;
+      font-size: 0.7rem;
+    }
+    
+    .login {
+      font-size: 20px;
+      margin-left: 50px;
+    }
+      /* analysis */
+      .analysis .col-2 {
+        width: 50%;
+        /* background-color: cyan; */
+      }
+      
+      .analysis .content .cards1 {
+        height: 70vh;
+        margin-top: 3%;
+        margin-bottom: 3%;
+      }
+      .analysis .content .cards1 .bar {
+        height:450px; 
+        width:430px;
+        margin: 0%;
+        margin-left: -20%;
+      }
+      .analysis .content .cards1 ul {
+        margin: 0%;
+        padding: 10%;
+        font-size: 0.9rem;
+      }
+      .analysis .cards1 .pie{
+        height:40%; 
+        width:50%;
+      }
+      .analysis .cards1 p{
+        margin-top: 10%;
+      }
+      .analysis .cards1 .para {
+        margin: 5%;
+        font-size: 1rem;
+      }
+      
+    .footer {
+      width: 100%;
+      height: 100vh;
+    }
+  }

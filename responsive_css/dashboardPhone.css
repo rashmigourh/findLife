@@ -1,0 +1,363 @@
+@media screen and (max-device-width: 670px) {
+  * {
+    overflow-x: hidden;
+  }
+  body {
+    width: 100%;
+    height: 135vh;
+    overflow-x: hidden;
+  }
+  
+  .open-menu {
+    padding: 10px;
+    width: 20%;
+    font-size: 1.5rem;
+  }
+  #navbar .menu {
+    width: 60%;
+    height: 100vh;
+    position: fixed;
+  }
+  #navbar .menu .yoga {
+    margin-top: 30%;
+    width: 80%;
+    height: 25vh;
+  }
+  #navbar .menu p {
+    font-size: 0.9rem;
+    width: 30vh;
+    margin-left: 0%;
+    padding: 10px;
+  }
+  .close-menu {
+    font-size: 1.5rem;
+    margin-left: 85%;
+  }
+  #navbar p {
+    margin-left: 0%;
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0px;
+    margin-top: 2%;
+  }
+  #navbar .heart-rate {
+    margin-right: -40%;
+    width: 40%;
+  }
+  #navbar .heartBeat {
+    margin-top: 10px;
+    height: 45%;
+    width: 25%;
+    margin-right: 5px;
+  }
+
+  .upper {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    height: 70vh;
+    margin: 2%;
+
+  }
+  .col-2 {
+    width: 100%;
+    height: 30vh;
+    margin-left: 0%;
+    overflow-y: hidden;
+    /* background-color: #512b81; */
+  }
+  .upper .barGraph {
+    margin-top: 5%;
+    height: 30vh;
+  }
+  .upper .barGraph img {
+    height: 80%;
+    width: 98%;
+    border-radius: 15px;
+  }
+  .inside {
+    display: flex;
+}
+  .upper .result {
+    width: 30%;
+    height: 30vh;
+    border-radius: 10px;
+    overflow-y: hidden;
+    margin-left: 0%;
+  }
+  .upper .result h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .upper .result p {
+    font-size: 1.2rem;
+  }
+  .upper .result img {
+    margin-top: 30%;
+    width: 100%;
+  }
+  .health {
+    width: 70%;
+    border-radius: 10px;
+    overflow-y: hidden;
+  }
+  .upper .inside .health img {
+    margin-left: -5%;
+    height: 80%;
+    width: 90vh;
+  }
+  .upper .inside .health h2 {
+    font-size: 0.7rem;
+  }
+  .upper .inside .health .para {
+    font-size: 0.5rem;
+    padding-right: 5%;
+  }
+
+  .lower {
+    margin-top: -15%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lower .heatmap img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 15px;
+    margin-left: 0%;
+    padding: 3%;
+  }
+  .lower .row {
+    width: 100%;
+  }
+  .lower .row .col {
+    width: 100%;
+  }
+  .lower .pie {
+    height:36vh ;
+    width: 100%;
+    margin-left:0%;
+  }
+  .lower .pie img {
+    height: 30vh;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 15px;
+    padding: 10px;
+    
+  }
+}
+
+
+@media (min-device-width: 670px) and (max-device-width: 1024px) {
+  * {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .open-menu {
+    padding: 10px;
+    width: 20%;
+    font-size: 1.5rem;
+  }
+  #navbar .menu {
+    width: 35%;
+    height: 100vh;
+    position: fixed;
+  }
+  #navbar .menu p {
+    margin: 2%;
+  }
+  #navbar p {
+    margin-left: -3%;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0px;
+    margin-top: 2%;
+  }
+  #navbar .heart-rate {
+    margin-right: -20%;
+    width: 20%;
+  }
+  #navbar .heartBeat {
+    height: 55%;
+    width: 15%;
+    margin-right: 10px;
+  }
+  .upper {
+    margin-top: 5%;
+  }
+  .upper .barGraph {
+    height: 42vh;
+  }
+  .upper .result{
+    width: 35%;
+    height: 35vh;
+    margin-left: 0%;
+    overflow-y: hidden;
+  }
+  .upper .result h2 {
+    font-size: 1.8rem;
+    padding: 20px;
+  }
+  .upper .result p{
+    font-size: 1.8rem;
+  }
+  .upper .result img {
+    margin-top: 10%;
+  }
+  .health {
+    width: 60%;
+    border-radius: 15px;
+    background-color: white;
+    height: 35vh;
+  }
+  .upper .inside .health img {
+    margin-left: -10%;
+    height: 80%;
+    width: 90vh;
+  }
+  .upper .inside .health h2 {
+    font-size: 0.9rem;
+  }
+  .upper .inside .health .para {
+    font-size: 0.6rem;
+    padding-right: 5%;
+  }
+  .lower {
+    margin-top: -10px;
+    height: 50vh;
+  }
+  .lower .heatmap {
+    width: 60%;
+    height: 70%;
+    overflow-y: hidden;
+  }
+  .lower .heatmap img {
+    width: 98%;
+    height: 100%;
+    border-radius: 15px;
+    margin-left: 2%;
+    padding: 5px;
+  }
+  
+  .lower .pie{
+    height:36vh ;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 0%;
+  }
+  .lower .pie img{
+    width: 100%;
+    height: 35vh;
+    padding: 10px;
+  margin-left: 0%;
+  border-radius: 15px;
+  }
+}
+
+@media (min-device-width: 1025px) and (max-device-width: 1280px){
+  * {
+      overflow-x: hidden;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    .open-menu {
+      padding: 20px;
+      width: 10%;
+      font-size: 1.5rem;
+      overflow-y: hidden;
+    }
+    #navbar .menu p {
+      margin: 2%;
+      width: 90%;
+    }
+    #navbar p {
+      margin-left:0%;
+      width: 120%;
+      font-size: 1.2rem;
+      margin-top: 0.5%;
+    }
+    #navbar .heart-rate {
+      margin-right: -4%;
+      width: 20%;
+    }
+    #navbar .heartBeat {
+      height: 55%;
+      width: 15%;
+      margin-right: 10px;
+    }
+    .upper {
+      margin-top: 5%;
+    }
+    .upper .barGraph {
+      height: 42vh;
+    }
+    .upper .result{
+      width: 35%;
+      height: 35vh;
+      margin-left: 0%;
+      overflow-y: hidden;
+    }
+    .upper .result h2 {
+      font-size: 1.8rem;
+      padding: 20px;
+    }
+    .upper .result p{
+      font-size: 1.8rem;
+    }
+    .upper .result img {
+      margin-top: 10%;
+    }
+    .health {
+      width: 60%;
+      border-radius: 15px;
+      background-color: white;
+      height: 35vh;
+    }
+    .upper .inside .health img {
+      margin-left: -10%;
+      height: 80%;
+      width: 90vh;
+    }
+    .upper .inside .health h2 {
+      font-size: 1.2rem;
+    }
+    .upper .inside .health .para {
+      font-size: 0.9rem;
+      padding-right: 5%;
+    }
+
+    .lower {
+      margin-top: -20px;
+      height: 50vh;
+    }
+    .lower .heatmap {
+      width: 60%;
+      height: 70%;
+      overflow-y: hidden;
+    }
+    .lower .heatmap img {
+      width: 98%;
+      height: 100%;
+      border-radius: 15px;
+      margin-left: 2%;
+      padding: 5px;
+    }
+    .lower .pie{
+      height:35vh ;
+      width: 40vh;
+      margin-left: 0%;
+      margin-top: 0%;
+      background-color: aqua;
+    }
+    .lower .pie img{
+      width: 90%;
+      height: 35vh;
+    margin-left: 0%;
+    padding: 10px;
+    }
+  }
